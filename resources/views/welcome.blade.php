@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="container">
+    
     {{-- search --}}
     <form action="/search" method="GET">
         <div class="d-flex align-items-center my-3">
@@ -9,6 +10,7 @@
             <button type="submit" class="search-btn"><i class="material-icons">search</i></button>
         </div>
     </form>
+    
     {{-- search --}}
     <div class="row my-3">
         @if(!$channels->count())
@@ -995,5 +997,4 @@
 
 
 
-
-
+//end
